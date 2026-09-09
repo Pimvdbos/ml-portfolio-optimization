@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-label="Walk-forward portfolio performance">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#1f2937}.grid{stroke:#e5e7eb;stroke-width:1}.axis{stroke:#6b7280;stroke-width:1}.series{fill:none;stroke-width:2.5;stroke-linejoin:round;stroke-linecap:round}</style>
+<text x="450.0" y="26" text-anchor="middle" font-size="18" font-weight="600">Walk-Forward Portfolio Performance</text>
+<text x="450.0" y="45" text-anchor="middle" font-size="11" fill="#6b7280">Net of transaction costs · normalized wealth</text>
+<line class="grid" x1="75" y1="390.1" x2="875" y2="390.1"/>
+<text x="65" y="394.1" text-anchor="end" font-size="11">1.00</text>
+<line class="grid" x1="75" y1="315.6" x2="875" y2="315.6"/>
+<text x="65" y="319.6" text-anchor="end" font-size="11">1.10</text>
+<line class="grid" x1="75" y1="241.2" x2="875" y2="241.2"/>
+<text x="65" y="245.2" text-anchor="end" font-size="11">1.20</text>
+<line class="grid" x1="75" y1="166.7" x2="875" y2="166.7"/>
+<text x="65" y="170.7" text-anchor="end" font-size="11">1.30</text>
+<line class="grid" x1="75" y1="92.2" x2="875" y2="92.2"/>
+<text x="65" y="96.2" text-anchor="end" font-size="11">1.40</text>
+<line class="axis" x1="75" y1="55" x2="75" y2="405"/>
+<line class="axis" x1="75" y1="405" x2="875" y2="405"/>
+<line class="axis" x1="75.0" y1="405" x2="75.0" y2="410"/>
+<text x="75.0" y="427" text-anchor="middle" font-size="11">2023-01</text>
+<line class="axis" x1="275.0" y1="405" x2="275.0" y2="410"/>
+<text x="275.0" y="427" text-anchor="middle" font-size="11">2023-06</text>
+<line class="axis" x1="475.0" y1="405" x2="475.0" y2="410"/>
+<text x="475.0" y="427" text-anchor="middle" font-size="11">2023-12</text>
+<line class="axis" x1="675.0" y1="405" x2="675.0" y2="410"/>
+<text x="675.0" y="427" text-anchor="middle" font-size="11">2024-06</text>
+<line class="axis" x1="875.0" y1="405" x2="875.0" y2="410"/>
+<text x="875.0" y="427" text-anchor="middle" font-size="11">2024-12</text>
+<polyline class="series" stroke="#2563eb" points="75.0,390.1 108.3,333.6 141.7,357.4 175.0,317.2 208.3,310.2 241.7,316.1 275.0,293.8 308.3,272.7 341.7,294.5 375.0,344.4 408.3,332.4 441.7,252.2 475.0,220.4 508.3,218.9 541.7,202.4 575.0,171.1 608.3,223.2 641.7,197.3 675.0,183.6 708.3,156.8 741.7,139.9 775.0,115.0 808.3,139.8 841.7,116.9 875.0,138.0"/>
+<polyline class="series" stroke="#f59e0b" points="75.0,390.1 108.3,350.1 141.7,379.7 175.0,340.2 208.3,327.7 241.7,339.1 275.0,321.2 308.3,298.5 341.7,319.5 375.0,354.6 408.3,359.5 441.7,309.9 475.0,284.0 508.3,289.7 541.7,265.9 575.0,218.8 608.3,228.9 641.7,195.7 675.0,189.9 708.3,161.6 741.7,140.8 775.0,110.5 808.3,102.8 841.7,90.3 875.0,111.1"/>
+<polyline class="series" stroke="#16a34a" points="75.0,390.1 108.3,339.3 141.7,370.8 175.0,349.8 208.3,340.4 241.7,356.8 275.0,340.6 308.3,324.7 341.7,342.8 375.0,381.2 408.3,386.5 441.7,332.7 475.0,299.0 508.3,308.4 541.7,294.0 575.0,265.7 608.3,292.3 641.7,262.7 675.0,261.0 708.3,227.7 741.7,202.3 775.0,181.1 808.3,197.0 841.7,183.3 875.0,221.0"/>
+<polyline class="series" stroke="#dc2626" points="75.0,390.1 108.3,348.5 141.7,378.6 175.0,352.4 208.3,345.0 241.7,359.3 275.0,352.1 308.3,341.1 341.7,355.3 375.0,388.6 408.3,391.1 441.7,346.8 475.0,318.5 508.3,325.1 541.7,319.5 575.0,294.3 608.3,314.5 641.7,291.8 675.0,289.7 708.3,261.2 741.7,241.4 775.0,222.3 808.3,235.9 841.7,228.0 875.0,257.2"/>
+<line x1="87" y1="73" x2="111" y2="73" stroke="#2563eb" stroke-width="3"/>
+<text x="119" y="77" font-size="11">ML Robust</text>
+<line x1="87" y1="95" x2="111" y2="95" stroke="#f59e0b" stroke-width="3"/>
+<text x="119" y="99" font-size="11">Historical MVO</text>
+<line x1="87" y1="117" x2="111" y2="117" stroke="#16a34a" stroke-width="3"/>
+<text x="119" y="121" font-size="11">Equal Weight</text>
+<line x1="87" y1="139" x2="111" y2="139" stroke="#dc2626" stroke-width="3"/>
+<text x="119" y="143" font-size="11">Risk Parity</text>
+<text x="450.0" y="458" text-anchor="middle" font-size="10" fill="#6b7280">Backtest: 2023–2024 · Monthly rebalancing · 40% asset cap</text>
+</svg>
