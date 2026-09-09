@@ -1,6 +1,6 @@
 # Data
 
-The annual CSV files contain aligned daily closing prices for the five ETFs used in the analysis. The split by year keeps individual files small and easy to inspect.
+The annual files contain aligned daily closing prices for the five ETFs used in the analysis. They are stored as gzip-compressed CSVs (`.csv.gz`) to keep the repository lightweight; `pandas.read_csv` reads them transparently.
 
 | Ticker | Exposure |
 |---|---|
