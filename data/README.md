@@ -1,6 +1,6 @@
 # Data
 
-The two CSV files contain aligned daily closing prices for the five ETFs used in the analysis. They are split only to keep the repository lightweight.
+The annual CSV files contain aligned daily closing prices for the five ETFs used in the analysis. The split by year keeps individual files small and easy to inspect.
 
 | Ticker | Exposure |
 |---|---|
