@@ -30,7 +30,8 @@ class BacktestConfig:
 
 def load_prices(data_dir: str | Path) -> pd.DataFrame:
     data_dir = Path(data_dir)
-    compact_parts = sorted(data_dir.glob("etf_prices_20??.csv"))
+    compressed_parts = sorted(data_dir.glob("etf_prices_20??.csv.gz"))
+    compact_parts = compressed_parts or sorted(data_dir.glob("etf_prices_20??.csv"))
     if compact_parts:
         prices = pd.concat(
             [pd.read_csv(path, parse_dates=["Date"]) for path in compact_parts],
