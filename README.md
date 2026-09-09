@@ -1,8 +1,8 @@
 # Portfolio Optimization Under Uncertainty Using Machine Learning
 
-A recruiter-facing portfolio project exploring whether machine-learning forecasts can improve multi-asset portfolio allocation when expected returns are uncertain.
+This project investigates whether machine-learning forecasts can improve multi-asset portfolio allocation when expected returns are uncertain.
 
-The project compares an **uncertainty-aware Random Forest allocation strategy** with three transparent baselines: historical mean-variance optimization, equal weighting, and risk parity. The analysis uses five liquid ETFs spanning U.S. equities, international equities, bonds, gold, and real estate.
+The analysis compares an **uncertainty-aware Random Forest allocation strategy** with three transparent baselines: historical mean-variance optimization, equal weighting, and risk parity. The portfolio universe consists of five liquid ETFs spanning U.S. equities, international equities, bonds, gold, and real estate.
 
 > **Key result:** after correcting the original coursework backtest to remove look-ahead bias and align the forecast horizon with monthly rebalancing, the ML strategy was competitive but did **not** outperform historical mean-variance optimization over 2023–2024. This is an important model-risk finding: apparent ML gains can disappear when the evaluation design becomes stricter.
 
@@ -81,7 +81,7 @@ The ML strategy remained diversified, while historical MVO frequently pushed aga
 ```text
 ml-portfolio-optimization/
 ├── data/                         # Prepared Stooq ETF prices
-├── figures/                      # Recruiter-ready output chart
+├── figures/                      # Backtest output chart
 ├── notebooks/
 │   └── portfolio_optimization.ipynb
 ├── results/                      # Key backtest outputs
@@ -130,4 +130,4 @@ A natural next step would be nested time-series validation for the uncertainty p
 
 ## Background
 
-This project originated as an individual Data Science for Engineers assignment. The GitHub version was subsequently refactored into a reproducible research project and the evaluation methodology was tightened to address look-ahead bias and forecast-horizon mismatch found during review.
+This project originated as an individual Data Science for Engineers assignment. It was subsequently refactored into a reproducible research project, and the evaluation methodology was tightened to address look-ahead bias and forecast-horizon mismatch found during review.
