@@ -30,9 +30,12 @@ class BacktestConfig:
 
 def load_prices(data_dir: str | Path) -> pd.DataFrame:
     data_dir = Path(data_dir)
-    compact_parts = [data_dir / "etf_prices_2018_2021.csv", data_dir / "etf_prices_2022_2024.csv"]
-    if all(path.exists() for path in compact_parts):
-        prices = pd.concat([pd.read_csv(path, parse_dates=["Date"]) for path in compact_parts], ignore_index=True)
+    compact_parts = sorted(data_dir.glob("etf_prices_20??.csv"))
+    if compact_parts:
+        prices = pd.concat(
+            [pd.read_csv(path, parse_dates=["Date"]) for path in compact_parts],
+            ignore_index=True,
+        )
         return prices.set_index("Date").sort_index()
 
     files = {
